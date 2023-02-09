@@ -1,38 +1,86 @@
+.h1 {
+}
+.p {
+    color: #787e88;
+}
+.container {
+    color: white;
+    background-color: #1b222c;
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+    padding: 2em;
+}
+.circle-btn-wrapper {
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+}
+.circle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    width: 2em;
+    margin-left: 1em;
+    height: 2em;
+    background-color: #262f38;
+    cursor: pointer;
+}
+.circle-btn:hover {
+    background-color: #7c8999;
+}
+#star {
+    margin-bottom: 2em;
+}
+.circle-btn:first-child {
+    margin-left: 0;
+}
+
+.circle-btn.active {
+    background-color: #fc7614;
+}
+.btn:active {
+    background-color: #ffffff;
+    color: #fc7614;
+}
+.btn {
+    width: 100%;
+    background-color: #fc7614;
+    color: #ffffff;
+
+    padding: 1em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
 .App {
-  text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.thanksWrapper {
+    text-align: center;
 }
+.star-selected {
+    display: inline-block;
+    margin: 0;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    color: #ca7b3e;
+    background-color: #2b3139;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img-holder {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
