@@ -1,3 +1,3 @@
-<h4>Front End Mentor template Challenge</h4>
-<a src="https://snazzy-quokka-e7acb8.netlify.app/">Check the Netlify Website</a>
-<a src="https://www.frontendmentor.io/solutions/react-css-kAhSGCatda"> project frontendmentor.io</a>
+Check out the live website on [Netlify](https://snazzy-quokka-e7acb8.netlify.app/).
+
+This project is a solution to the [challenge](https://www.frontendmentor.io/solutions/react-css-kAhSGCatda) on Frontend Mentor.
