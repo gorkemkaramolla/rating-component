@@ -124,3 +124,12 @@ body {
   box-sizing: border-box;
   background-color: #141518;
 }
+.attribution {
+  color: white;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+}
